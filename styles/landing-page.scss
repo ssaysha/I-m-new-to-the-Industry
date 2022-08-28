@@ -40,6 +40,7 @@ main {
         height: 50px;
         margin-top: 80px;
         .i-am-new {
+            display: inline-block;
             background-color: red;
             border: none;
             width: 46%;
@@ -52,11 +53,14 @@ main {
                 font-weight: 700;
                 font-size: 16px;
             }
-            a:hover {
-                background-color: #fff;
-                color: red;
-            }
         }
+            .i-am-new:hover {
+                background-color: #fff;
+                border: 2px solid orangered;
+               a {
+                color: red;
+               }
+            }
         .i-need-experience {
             border: 2px solid red;
             width: 46%;
@@ -69,10 +73,12 @@ main {
                 font-weight: 500;
                 font-size: 16px;
             }
-            a:hover {
-                background-color: red;
-                color: #fff;
-            }
         }
+            .i-need-experience:hover {
+                 background-color: red;
+                 a {
+                    color: #fff;
+                 }
+            }
     }
 }

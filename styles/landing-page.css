@@ -45,6 +45,7 @@ main .buttons {
   margin-top: 80px;
 }
 main .buttons .i-am-new {
+  display: inline-block;
   background-color: red;
   border: none;
   width: 46%;
@@ -58,8 +59,11 @@ main .buttons .i-am-new a {
   font-weight: 700;
   font-size: 16px;
 }
-main .buttons .i-am-new a:hover {
+main .buttons .i-am-new:hover {
   background-color: #fff;
+  border: 2px solid orangered;
+}
+main .buttons .i-am-new:hover a {
   color: red;
 }
 main .buttons .i-need-experience {
@@ -75,7 +79,9 @@ main .buttons .i-need-experience a {
   font-weight: 500;
   font-size: 16px;
 }
-main .buttons .i-need-experience a:hover {
+main .buttons .i-need-experience:hover {
   background-color: red;
+}
+main .buttons .i-need-experience:hover a {
   color: #fff;
 }/*# sourceMappingURL=landing-page.css.map */
